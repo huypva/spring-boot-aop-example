@@ -9,7 +9,7 @@ The example project for StringBoot service
 ## Project structure
 ```
 .
-├── hello-world
+├── spring-boot-aop
 │   ├── Dockerfile
 │   ...
 ├── docker-compose.yaml
@@ -32,7 +32,7 @@ The example project for StringBoot service
 - Build project
 ```shell script
 $ ./mvnw clean package
-$ cd hello-word
+$ cd spring-boot-aop
 $ ./mvnw spring-boot:run
 ...
 ```
