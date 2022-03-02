@@ -33,7 +33,7 @@ The example project for StringBoot service
 ```shell script
 $ ./mvnw clean package
 $ cd spring-boot-aop
-$ ./mvnw spring-boot:run
+$ ../mvnw spring-boot:run
 ...
 ```
 
@@ -41,12 +41,12 @@ $ ./mvnw spring-boot:run
 
 - Start project
 ```shell script
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 - Stop project
 ```shell script
-docker-compose down
+$ docker-compose down
 ```
 
 ## Run testing
